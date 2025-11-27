@@ -21,8 +21,22 @@ A clean and responsive authentication user interface built using React and Tailw
 ## 📸 Screenshots  
 
 <div align="center">
-  <img src="https://your-github-image-link/login-desktop.png" alt="Desktop View" height="380px" style="object-fit: contain; margin-right: 20px;" />
-  <img src="https://your-github-image-link/login-mobile.png" alt="Mobile View" height="380px" style="object-fit: contain;" />
+
+### Desktop View
+<img 
+  src="https://github.com/rangari-rani/buildwithrani-react-login-signup-ui/blob/9c8de7bb2c7018b2c2dc58b86e70418854e95312/public/login-desktop.png?raw=true"
+  alt="Desktop View"
+  width="800"
+  style="margin-bottom: 10px;"
+/>
+
+### Mobile View
+<img 
+  src="https://github.com/rangari-rani/buildwithrani-react-login-signup-ui/blob/9c8de7bb2c7018b2c2dc58b86e70418854e95312/public/login-mobile.png?raw=true"
+  alt="Mobile View"
+  width="300"
+/>
+
 </div>
 
 ---
@@ -87,7 +101,7 @@ npm run dev
 
 This project is part of the **BuildWithRani** learning series.
 
-📖 Full tutorial available at:   [buildwithrani.com](https://buildwithrani.com)
+📖 Implementation details:  [buildwithrani.com](https://buildwithrani.com)
 
 ---
 
