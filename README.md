@@ -1,73 +1,99 @@
-# React + TypeScript + Vite
+## 🔐 Login & Signup UI – React + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+A clean and responsive authentication user interface built using React and Tailwind CSS, designed to be reusable in real-world applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo – [Try it on Vercel](https://buildwithrani-react-login-signup-ui.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [React](https://reactjs.org/) : Component-based library for building interactive user interfaces.  
+- [Tailwind CSS](https://tailwindcss.com/) : Utility-first CSS framework for fast and responsive UI development.  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📸 Screenshots  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<div align="center">
+  <img src="https://your-github-image-link/login-desktop.png" alt="Desktop View" height="380px" style="object-fit: contain; margin-right: 20px;" />
+  <img src="https://your-github-image-link/login-mobile.png" alt="Mobile View" height="380px" style="object-fit: contain;" />
+</div>
+
+---
+
+## ✨ Features
+
+- 🔐 Login and Signup forms
+- 👀 Password visibility toggle
+- 🔁 Switch between Login and Signup
+- 🌐 Social login buttons (UI only)
+- 📱 Mobile responsive layout
+- 🧩 Reusable layout components
+
+---
+
+## 📁 Folder Structure
+
+```text
+src/
+components/
+auth/
+AuthLayout.tsx
+LoginForm.tsx
+SignupForm.tsx
+pages/
+auth/
+login.tsx
+signup.tsx
+hooks/
+usePasswordToggle.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/rangari-rani/buildwithrani-react-login-signup-ui.git
 ```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start development server
+
+```bash
+npm run dev
+```
+
+> App runs at:
+🌐 http://localhost:5173
+
+---
+
+## 🌐 Part of BuildWithRani
+
+This project is part of the **BuildWithRani** learning series.
+
+📖 Full tutorial available at:   [buildwithrani.com](https://buildwithrani.com)
+
+---
+
+## 📬 Contact
+
+Connect with me on **[LinkedIn – Rani Rangari](https://www.linkedin.com/in/rani-rangari/)**  
+
+⭐ If you found this project helpful, consider giving it a star!
+
