@@ -55,20 +55,32 @@ A clean and responsive authentication user interface built using React and Tailw
 ## 📁 Folder Structure
 
 ```text
+```tsx
 src/
-components/
-auth/
-AuthLayout.tsx
-LoginForm.tsx
-SignupForm.tsx
-pages/
-auth/
-login.tsx
-signup.tsx
-hooks/
-usePasswordToggle.ts
+├── App.tsx
+├── App.css
+├── index.css
+├── main.tsx
+│
+├── assets/
+│   └── react.svg
+│
+├── components/
+│   ├── Footer.tsx
+│   │
+│   └── auth/
+│       ├── AuthLayout.tsx
+│       ├── LoginForm.tsx
+│       └── SignupForm.tsx
+│
+├── hooks/
+│   └── usePasswordToggle.ts
+│
+└── pages/
+    └── auth/
+        ├── login.tsx
+        └── signup.tsx
 ```
-
 
 ---
 
@@ -97,7 +109,7 @@ npm run dev
 
 ---
 
-## 🌐 Part of BuildWithRani
+## ✨ Part of BuildWithRani
 
 This project is part of the **BuildWithRani** learning series.
 
